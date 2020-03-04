@@ -33,7 +33,12 @@ class Dog
    breed = array[2]
    new_dog = self.new(id:id, name:name, breed:breed)
    new_dog
-   end 
+ end 
+ 
+ 
+ def self.find_by_name(name)
+   
+ end 
  
  def save
    
